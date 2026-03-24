@@ -353,6 +353,14 @@
       letter-spacing: 0.1em;
       text-transform: uppercase;
     }
+
+    .about-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 3px;
+}
     .about-img svg { opacity: 0.3; }
 
     .about-accent {
@@ -835,14 +843,12 @@
         <a href="#features" class="btn-ghost" style="display:inline-block; margin-top: 0.5rem;">See Highlights</a>
       </div>
       <div class="about-img-wrap reveal" style="transition-delay: 0.15s;">
-        <div class="about-img">
-          <!-- Replace with: <img src="about-image.jpg" alt="About"> -->
-          <svg width="44" height="44" fill="none" stroke="currentColor" stroke-width="1.2" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
-          About Image (800 × 1000)
-        </div>
-        <div class="about-accent"></div>
-        <div class="about-accent2"></div>
-      </div>
+  <div class="about-img">
+    <img src="Tsunami image.png" alt="Tsunami image from 2012" style="width:100%; height:100%; object-fit:cover;">
+  </div>
+  <div class="about-accent"></div>
+  <div class="about-accent2"></div>
+</div>
     </div>
   </section>
 
